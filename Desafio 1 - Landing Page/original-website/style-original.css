@@ -8,15 +8,22 @@
   padding: 10%;
   height: 300%;
   color: white;
-  /* vertical-align: middle; */
+  vertical-align: middle;
   background-color: #303030;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+.header-text a {
+  padding: 10px 30px;;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+  color: white;
+}
 
 .header-banner h1 {
   font-size: 50px;
+  margin-top: 20px;
 }
 
 .header-banner p {
@@ -46,7 +53,7 @@
 .about-container {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  padding: 100px 5% 100px 5%;
 }
 
 .about-container .about-text {
@@ -56,7 +63,51 @@
   padding: 30px;
 }
 
+.about-container img {
+  border-radius: 20px;
+}
+
+.about-text h2 {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.about-text p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
 /* Contact Section */
 .contact-banner {
   background-color: #303030;
+  padding: 5%;
+  text-align: center;
+  color: white;
+}
+
+.contact-banner h2 {
+  margin-bottom: 20px;
+}
+
+.contact-banner input,
+.contact-banner button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact-banner input {
+  width: 350px;
+  height: 30px;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.contact-banner button {
+  color: white;
+  width: 200px;
+  font-size: 20px;
+  font-weight: 500;
+  background: #C07212;
 }
