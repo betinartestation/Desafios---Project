@@ -1,0 +1,145 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+/* Banner Section */
+.header-banner {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),	url("./assets/banner-bkg.jpg");
+  padding: 100px;
+  height: 600px;
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header-banner #company-logo {
+  margin-bottom: 100px;
+}
+
+.break-text {
+  inline-size: 900px;
+  overflow-wrap: break-word;
+}
+
+.break-text a {
+  padding: 10px 30px;;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+  color: white;
+}
+
+.header-banner h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 80px;
+  line-height: 1.2;
+  margin-top: 20px;
+}
+
+.header-banner p {
+  font-weight: 200;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+/* Information Section */
+.information-align {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  margin: -220px 10% -30px 10%;
+}
+
+.information-align .info-card {
+  margin: 20px;
+  background-color: white;
+  padding: 50px;
+  text-align: center;
+  border-radius: 100px 100px 0px 0px;
+  width: 200px;
+}
+
+.info-card h2 {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.info-card p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+/* About Section */
+.about-container {
+  background-color: white;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  /* Discover how to make whole section above previous div */
+}
+
+.about-container .about-text {
+  inline-size: 800px;
+  overflow-wrap: break-word;
+  margin-right: 20px;
+}
+
+/* -- Text -- */
+.about-text h2 {
+  font-family: 'Playfair Display', serif;
+  text-decoration: underline;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-weight: 200;
+  font-size: 20px;
+}
+
+/* -- Image -- */
+.about-container img {
+  size: cover;
+  height: 500px;
+  border-radius: 30px;
+}
+
+/* Contact Section */
+.contact-banner {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),	url("./assets/contact-bkg.jpg");  
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 100px;
+  color: white;
+}
+
+.contact-banner h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.contact-banner input,
+.contact-banner button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact-banner input {
+  width: 350px;
+  height: 30px;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.contact-banner button {
+  color: white;
+  width: 200px;
+  font-size: 20px;
+  background: rgba(0,0,0,0.2);
+  border: white solid 2px;
+}
+
+

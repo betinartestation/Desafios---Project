@@ -1,0 +1,62 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+/* Banner Section */
+.header-banner {
+  padding: 10%;
+  height: 300%;
+  color: white;
+  /* vertical-align: middle; */
+  background-color: #303030;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.header-banner h1 {
+  font-size: 50px;
+}
+
+.header-banner p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+/* Information Section */
+.information-align {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #F9F9F9;
+}
+
+.information-align .info-card {
+  margin: 0 20px 0 20px;
+  padding: 30px;
+  text-align: center;
+}
+
+.information-align .info-card h2 {
+  font-size: 40px;
+}
+
+/* About Section */
+.about-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.about-container .about-text {
+  inline-size: 800px;
+  overflow-wrap: break-word;
+  margin-right: 20px;
+  padding: 30px;
+}
+
+/* Contact Section */
+.contact-banner {
+  background-color: #303030;
+}
