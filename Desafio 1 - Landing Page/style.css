@@ -97,11 +97,42 @@
   font-size: 20px;
 }
 
-/* -- Image -- */
-.about-container img {
-  size: cover;
+#img-1,
+#img-2 {
+  border-radius: 20px;
+  background-size: cover;
   height: 500px;
-  border-radius: 30px;
+  width: 500px;
+}
+
+.slide-about {
+  display: flex;
+  grid-auto-flow: column;
+  column: auto;
+  justify-content: center;
+}
+
+.arrows {
+  align-self: center;
+  cursor: pointer;
+  margin: 10px;
+  width: 48px;
+  height: 48px;
+}
+
+/* -- Occupy the same space so that the container does not move when changing images -- */
+#arrow-left {
+  visibility: hidden;
+}
+
+.about-container #img-2 {
+  display: none;
+}
+
+/* -- Add hover effect -- */
+.arrows:hover {
+  transform: translateY(-7px);
+  transition-duration: 0.5s;
 }
 
 /* Contact Section */
